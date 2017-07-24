@@ -27,6 +27,9 @@ The only thing that you will need is Bash and text files, and MySQL, all of whic
 
 You will need to do the following for this assignment to be considered complete. 
 
+1. Fork this repository: https://github.com/inls161/task-4-data
+2. Rename it as YOURGITHUBUSERNAME-data (or something similar).
+2. Clone it to your CodeAnywhere container.
 1. Create a list of five questions.
 2. Write a script that will do the following:
   - Ask each question of the user running the script.
