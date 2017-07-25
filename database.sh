@@ -30,7 +30,7 @@ fi
 echo "Adding the entry..."
 mysql -u"$USER" -p"$PASSWORD" -e "LOAD DATA INFILE '/var/lib/mysql-files/tmp.csv' INTO TABLE $TABLE FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '\"';" $DATABASE
 # dump current version of database into export file
-mysqldump -u"$USER" -p"$PASSWORD" $DATABASE > `date --iso-8601`-$DATABASE.sql
+mysqldump -u"$USER" -p"$PASSWORD" $DATABASE > `date --iso-8601=seconds`-$DATABASE.sql
 # remove /var/lib/mysql-files/tmp.csv
 sudo rm /var/lib/mysql-files/tmp.csv
 
