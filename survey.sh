@@ -16,6 +16,8 @@ read LANGUAGES
 TIMESTAMP=`date --iso-8601=seconds`
 
 # convert data to tmp.csv and generate random UID for each instance
+echo "__________________________"
+echo "Your entry:"
 echo "$RANDOM$RANDOM,$TIMESTAMP,$COLOR,$ANIMAL,$FOOD,$COUNTRIES,$LANGUAGES" > ./tmp.csv
 # read data in tmp.csv
 cat ./tmp.csv
