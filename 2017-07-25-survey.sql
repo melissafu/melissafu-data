@@ -40,7 +40,7 @@ CREATE TABLE `tblSurvey` (
 
 LOCK TABLES `tblSurvey` WRITE;
 /*!40000 ALTER TABLE `tblSurvey` DISABLE KEYS */;
-INSERT INTO `tblSurvey` VALUES ('1246521776','2017-07-25 19:39:55','black','dolphin','cake','10','3'),('239103424','2017-07-25 19:39:04','green','wolf','italian','10','5'),('3002516952','2017-07-25 19:40:41','pink','sloth','burger','0','1'),('53521718','2017-07-25 19:38:45','blue','fox','sushi','2','2'),('928120047','2017-07-25 19:39:29','purple','otter','pizza','3','1');
+INSERT INTO `tblSurvey` VALUES ('1661617212','2017-07-25 20:17:35','green','dolphin','pizza','10','5'),('2231810626','2017-07-25 20:18:19','purple','sloth','mexican','10','7'),('2300522959','2017-07-25 20:17:22','blue','fox','sushi','2','2'),('265233060','2017-07-25 20:17:48','black','otter','cake','5','3'),('3121528537','2017-07-25 20:18:42','pink','deer','italian','0','1');
 /*!40000 ALTER TABLE `tblSurvey` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-07-25 15:40:41
+-- Dump completed on 2017-07-25 16:18:42
